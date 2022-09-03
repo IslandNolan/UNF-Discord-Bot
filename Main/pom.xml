@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
-    <artifactId>Main</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>dev.noaln</groupId>
+    <artifactId>unf-discord-bot</artifactId>
+    <version>1.0-PRE</version>
 
     <dependencies>
         <dependency>
@@ -14,6 +14,11 @@
             <artifactId>javacord</artifactId>
             <version>3.5.0</version>
             <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-yaml</artifactId>
+            <version>2.13.3</version>
         </dependency>
 
         <!-- Dependencies below this comment are overridden for vulnerabilities -->
